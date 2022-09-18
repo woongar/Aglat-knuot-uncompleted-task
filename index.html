@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>עגלת קניות - משה טויזר</title>
+    <style>
+        #chart {
+            width: 250px;
+            height: 250px;
+            background-color:darkkhaki;
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+    <h1>חנות דגי נוי</h1>
+    <div id="chart">
+    <button id="cancel" onclick="deleteFromChart()">ביטול</button>
+    </div>
+ <div class="container">
+   
+<!-- <div class="wrap"> -->
+
+    <div class="box"><p>דגי זהב</p>
+        <div class="img-box"><img class="fishPic" src="images/gold.jpg" alt="דג זהב"></div>
+        <p>10 שקלים</p>
+        <button id="change" onclick="addToChart()">הוסף לעגלה</button>
+    </div>
+
+    <div class="box"><p>דג דיסקוס</p>
+        <div class="img-box"><img class="fishPic" src="images/discus-fish-1943755_640.jpg" alt="דג דיסקוס"></div>
+        <p>70 שקלים</p>
+        <button onclick="addToChart()">הוסף לעגלה</button>
+    </div>
+
+    <div class="box"><p>דג פרה</p>
+        <div class="img-box"><img class="fishPic" src="images/longhorn-cowfish-375110_640.jpg" alt="דג פרה"></div>
+        <p>80 שקלים</p>
+        <button onclick="addToChart()">הוסף לעגלה</button>
+    </div>
+
+<!-- </div> -->
+
+
+
+
+</div>
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>
